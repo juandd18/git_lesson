@@ -3,6 +3,9 @@ def my_square(x):
 	"""
 	return(x ** 2)
 
-print(my_square(5))
+def multiply(c):
+	return(c * c)
 
+print(my_square(5))
+print(multiply(3))
 
